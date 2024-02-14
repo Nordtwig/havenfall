@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://wn6a5yxsorkv"]
+
+[ext_resource type="Texture2D" uid="uid://d1n1i61tcte00" path="res://resources/tilemap.png" id="1_3ky1h"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ge1p"]
+atlas = ExtResource("1_3ky1h")
+region = Rect2(17, 136, 17, 17)
+
+[node name="PC" type="Sprite2D"]
+position = Vector2(100, 100)
+texture = SubResource("AtlasTexture_6ge1p")
